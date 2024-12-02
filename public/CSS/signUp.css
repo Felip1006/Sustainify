@@ -1,0 +1,224 @@
+@import url("https://fonts.googlrapis.com/css2?family=Poppins");
+
+* {
+  font-family: "Poppins";
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  background-position: center;
+}
+
+.icon {
+  position: absolute;
+  top: 130px;
+  padding: 0px;
+  margin-left: 191px;
+}
+
+.icon-logo {
+  position: relative;
+  margin-left: 22px;
+  width: 210px;
+}
+
+.wrapper {
+  position: absolute;
+  top: 240px;
+  left: 435px;
+  width: 370px;
+  height: 390px;
+  background: #0f2a1d;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(9px);
+  color: #fff;
+  border-radius: 12px;
+  padding: 40px 30px;
+  margin-left: -300px;
+  margin-right: 60px;
+}
+
+.wrapper h1 {
+  font-family: "Poppins";
+  font-size: 30px;
+  text-align: center;
+}
+
+.wrapper .input-box {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  width: 100%;
+  height: 40px;
+  margin: 30px 0;
+}
+
+.input-box input {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 1.5px solid rgba(228,238,213,255);
+  border-radius: 40px;
+  font-size: 16px;
+  color: #fff;
+  padding: 20px 45px 20px 20px;
+}
+
+.input-box input::placeholder {
+  color: #fff;
+}
+
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 30%;
+  transform: translate(-50%);
+  font-size: 20px;
+}
+
+.wrapper .remember-forgot {
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+  accent-color: #fff;
+  margin-right: 3px;
+}
+
+.remember-forgot a {
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+}
+
+/* Add the keyframes animations */
+@-webkit-keyframes hvr-ripple-out {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+@keyframes hvr-ripple-out {
+  100% {
+    top: -12px;
+    right: -12px;
+    bottom: -12px;
+    left: -12px;
+    opacity: 0;
+  }
+}
+
+/* Modify the .wrapper .btn class */
+.wrapper .btn {
+  margin-top: 10px;
+  width: 100%;
+  height: 45px;
+  background: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+  position: relative;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+/* Add the ripple effect styles */
+.wrapper .btn:before {
+  content: '';
+  position: absolute;
+  border: #fff solid 6px;
+  border-radius: 40px;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+}
+
+.wrapper .btn:hover:before,
+.wrapper .btn:focus:before,
+.wrapper .btn:active:before {
+  -webkit-animation-name: hvr-ripple-out;
+  animation-name: hvr-ripple-out;
+}
+
+.wrapper .register-link {
+  font-family: "Poppins", sans-serif;
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 25px;
+}
+
+.register-link p a {
+  font-family: "Poppins", sans-serif;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link p a:hover {
+  text-decoration: underline;
+}
+
+.image img {
+  position: absolute;
+  background-repeat: no-repeat;
+  object-fit: cover;
+  width: 870px;
+  height: 100vh;
+  border-radius: 20px;
+  width: calc(100vw - 660px);
+  height: calc(100vh - 40px);
+  float: right;
+  bottom: unset;
+  top: 20px;
+  left: calc(640px + 20px);
+  left: 640px;
+}
+
+.text {
+  font-size: 10px;
+  position: absolute;
+  top: 710px;
+  margin-left: 60px;
+  }
+
+.text .first {
+  margin-left: 45px;
+}
+
+.text .second {
+  margin-left: 34px;
+}
+
+.text a {
+  color: #000;
+}
