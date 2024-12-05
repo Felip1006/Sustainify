@@ -166,8 +166,8 @@ body {
     padding: 10px 0;
 }
 
-.all {
-    border-bottom: 2.5px solid;
+.items {
+        border-bottom: 2.5px solid;
     border-color: #0F2A1D;
 }
 
@@ -201,12 +201,23 @@ body {
     font-size: 20px;
 }
 
+
 #shop-nav li a:hover {
     border-bottom: 2.5px solid;
     border-color: #0F2A1D;
     transition: 0.1s;
 }
 
+.shop-items-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    margin: 30px auto; /* Center the grid with auto margins */
+    gap: 80px; /* Space between items */
+    padding: 10px;
+    width: 90%; /* Ensure the grid takes full width */
+    justify-items: center; /* Center the grid items */
+    max-width: 3000px; /* Optional: Set a max width for better centering */
+}
 
 .item {
     text-align: center; 
@@ -241,17 +252,6 @@ body {
     color: #0F2A1D;
     margin-top: 10px;
     margin-bottom: 10px;
-}
-
-.shop-items-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr); /* 4 columns */
-    margin: 30px auto; /* Center the grid with auto margins */
-    gap: 80px; /* Space between items */
-    padding: 10px;
-    width: 90%; /* Ensure the grid takes full width */
-    justify-items: center; /* Center the grid items */
-    max-width: 3000px; /* Optional: Set a max width for better centering */
 }
 
 
