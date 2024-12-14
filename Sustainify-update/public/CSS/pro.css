@@ -1,0 +1,380 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+* {
+    font-family: 'Poppins', Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon {
+    display: flex;
+    margin-left: 20px;
+}
+
+.logo-icon {
+    margin-top: 25px;
+    margin-left: 22px;
+    width: 250px;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+    margin: 0;
+    padding: 0; 
+}
+
+ul li {
+    list-style: none;
+    margin: 0 20px;
+    margin-top: 25px;
+    font-size: 20px;
+    padding-left: 5px;
+    border: solid;
+    width: 120px;
+    height: 40px;
+    border-color: transparent;
+    border-radius: 20px;
+    background-color: #d1d1cf;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    transition: 0.5s;
+}
+
+ul li:hover {
+    background-color: #0F2A1D;
+    box-shadow: 2px 2px 4px rgb(98, 98, 98);
+    transition: ease-in-out .5s;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menu ul li {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.menu ul li a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.home {
+    margin-left: 150px;
+}
+
+.pro {
+    background-color: #0F2A1D;
+    box-shadow: 2px 2px 4px rgb(98, 98, 98);
+}
+
+.home-logo {
+    margin-left: 13px;
+}
+
+.shop-logo {
+    margin-left: 17px;
+}
+
+.pro-logo {
+    margin-left: 20px;
+}
+
+.aboutUs {
+    border: solid;
+    width: 175px;
+    height: 40px;
+    border-color: transparent;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.aboutUs-logo {
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+#aboutUs {
+    margin-left: 10px;
+}
+ul li img {
+    margin-left: 5px;
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+}
+
+a .cart-logo {
+    margin-top: 25px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px rgb(98, 98, 98);
+    margin-left: 195px;
+}
+
+a .cart-quantity {
+    position: absolute;
+    top: 40px;
+    right: 120px;
+    padding: .5px 7.5px;
+    border-radius: 50%;
+    background-color: #E4EED5;
+    color: #0F2A1D;
+    font-weight: bold;
+}
+
+.user-logo {
+    margin-top: 25px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 4px rgb(98, 98, 98);
+    margin-right: 50px;
+    padding: 0;
+}
+
+.green-tier h2 {
+    font-family: 'Poppins', Arial, sans-serif;
+    color: #0F2A1D;
+    text-align: center;     
+    font-size: 100px;
+    font-weight: 700;
+}
+
+.container {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+}
+
+.box {
+    margin-bottom: 20px;
+    width: 350px;
+    height: auto;
+    background-color: transparent; 
+    border: 2px solid #0F2A1D; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start;
+    padding: 20px;
+    border-radius: 10px;
+    color: #0F2A1D;
+    position: relative;
+    padding-bottom: 80px;
+    min-height: 500px;
+}
+
+.center-box {
+    margin-bottom: 20px;
+    width: 350px;
+    height: auto;
+    background-color: #0F2A1D;
+    border: 2px solid #0F2A1D; 
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start;
+    padding: 20px;
+    border-radius: 10px;
+    color: white;
+    position: relative;
+    padding-bottom: 80px;
+    min-height: 500px;
+}
+
+.box .header, .center-box .header {
+    font-family: serif;
+    font-size: 35px;
+    font-weight: bold; 
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.box .price, .center-box .price {
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-weight: bold; 
+}
+
+.box .currency, .center-box .currency {
+    font-size: 19px;
+    vertical-align: baseline;
+    font-weight: bolder;
+}
+
+.box .currency .price, .center-box .currency .price {
+    font-weight: bold;
+}
+
+.box .per-month, .center-box .per-month {
+    font-weight: normal;
+    font-size: 16px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.box .center-box .perks, .center-box .additional-text {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-left: 0px;
+    text-align: left;
+}
+
+.additional-text {
+    font-weight: 300;
+    margin-top: 10px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.perks p {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 14px;
+    margin-left: 25px;
+    text-align: left;
+    line-height: 1.2;
+}
+
+.box button {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 40px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: #0F2A1D;
+    color: white;
+}
+
+.center-box button {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px 40px;
+    border-radius: 25px;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    background-color: white;
+    color: #0F2A1D;
+}
+
+.box button:hover {
+    opacity: 0.9;
+    transform: translateX(-50%) scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
+
+.center-box button:hover {
+    opacity: 0.9;
+    transform: translateX(-50%) scale(1.05);
+    transition: all 0.2s ease-in-out;
+}
+
+.box:hover {
+    background-color: #0F2A1D;
+    color: white;
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+.box:hover button {
+    background-color: white;
+    color: #0F2A1D;
+    transition: all 0.2s ease-in-out;
+}
+
+.box:hover ~ .center-box,
+.box:hover + .center-box,
+.center-box:has(+ .box:hover) {
+    background-color: transparent;
+    color: #0F2A1D;
+}
+
+.box:hover ~ .center-box button,
+.box:hover + .center-box button,
+.center-box:has(+ .box:hover) button {
+    background-color: #0F2A1D;
+    color: white;
+}
+
+.center-box:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+#side-bar {
+    position: absolute;
+    top: 35px;
+    right: 40px;
+    background-color: #fff;
+    width: 30%;
+    height: 100%;
+    display: none; 
+}
+
+.user {
+    margin-left: 30px;
+    color: #0F2A1D;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: -50%;
+}
+
+.user p{
+    margin-top: 25px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.user-btn button {
+    background-color: transparent;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.user-btn-logo {
+    margin-top: 25px;
+    margin-right: 50px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    padding: 0;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgb(98, 98, 98);
+}

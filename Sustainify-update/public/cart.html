@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/cart.css">
+    <link rel="icon" type="image/x-icon" href="/public/images/favicon.ico">
+    <script src="/public/JavaScript/cart.js" async></script>
+    <script src="JavaScript/user.js" async></script>
+    <title>Sustainify | Cart</title>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo-icon">
+                <img src="images/sustainify-logo.png" alt="logo" class="logo-icon">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li class="home"><a href="homepage.html">HOME<img src = "images/home.png" alt="home-logo" class="home-logo"></a></li>
+                    <li class="shop"><a href="shop.html">SHOP<img src="images/shop.png" alt="" class="shop-logo"></a></li>
+                    <li class="pro"><a href="pro.html">PRO<img src="images/pro.png" alt="" class="pro-logo"></a></li>
+                    <li class="aboutUs"><a href="aboutUs.html" id="aboutUs">ABOUT US<img src="images/about us logo.png" alt="" class="aboutUs-logo"></a></li>
+                </ul>
+            </div>
+            <div class="cart-img">
+                <a href="cart.html">
+                    <img src="images/cart.png" alt="cart" class="cart-icon">
+                    <span class="cart-quantity">4</span>
+                </a>
+            </div>
+            <div class="user-btn">
+                <button type="button" id="user-btn-icon">
+                    <img src="images/user.png" alt="user" class="user-btn-logo">
+                </button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="container">
+            <div class="cart">
+                <div class="cart-actual-logo">
+                    <img src="/public/images/cart-logo.png">
+                    <h1 class="cart-logo">Green Cart</h1>
+                </div>
+                <hr>
+                <p class="product-detail">Product details</p>
+                
+                <div class="cart-items">
+                    <div class="cart-row">
+                        <div class="cart-item">
+                            <img src="images/Shop Items/Aloe Vera.png" alt="" class="cart-item-image">
+                            <span class="cart-item-name">Aloe Vera</span>
+                            <div class="update-and-delete-btns">
+                                <button type="button" class="update-btn">Update</button>
+                                <button type="button" class="delete-btn">Delete</button>
+                            </div>
+                        </div>
+                        <span class="cart-item-price">₱75</span>
+                        <div class="cart-item-quantity">
+                                <span class="item-quantity">Quantity: 2</span>
+                        </div>
+                        <div class="delivery-date-option">
+                            <h3>Choose a delivery option:</h3>
+                            <div class="options">
+                                <div class="free-shipping">
+                                    <input type="radio" name="shipping" id="free-shipping" />
+                                    <span>Tuesday, December 13 <br>- FREE Shipping</span>
+                                </div>
+                                <div class="standard-shipping">
+                                    <input type="radio" name="shipping" id="standard-shipping" />
+                                    <span>Wednesday, December 7 <br>- ₱30 Shipping</span>
+                                </div>
+                                <div class="express-shipping">
+                                    <input type="radio" name="shipping" id="express-shipping"/>
+                                    <span>Monday, December 5 <br>- ₱50 Shipping</span>
+                                </div>
+                            </div>
+                        </div>   
+                    </div>
+                    <div class="cart-row">
+                        <div class="cart-item">
+                            <img src="images/Shop Items/Alocasia Wentii Plant.png" alt="" class="cart-item-image">
+                            <span class="cart-item-name">Alocasia Wentii Plant</span>
+                            <div class="update-and-delete-btns">
+                                <button type="button" class="update-btn">Update</button>
+                                <button type="button" class="delete-btn">Delete</button>
+                            </div>
+                        </div>
+                        <span class="cart-item-price">₱150</span>
+                        <div class="cart-item-quantity">
+                                <span class="item-quantity">Quantity: 2</span>
+                        </div>
+                        <div class="delivery-date-option">
+                            <h3>Choose a delivery option:</h3>
+                            <div class="options">
+                                <div class="free-shipping">
+                                    <input type="radio" name="shipping" id="free-shipping" />
+                                    <span>Tuesday, December 13 <br>- FREE Shipping</span>
+                                </div>
+                                <div class="standard-shipping">
+                                    <input type="radio" name="shipping" id="standard-shipping" />
+                                    <span>Wednesday, December 7 <br>- ₱30 Shipping</span>
+                                </div>
+                                <div class="express-shipping">
+                                    <input type="radio" name="shipping" id="express-shipping"/>
+                                    <span>Monday, December 5 <br>- ₱50 Shipping</span>
+                                </div>
+                            </div>
+                        </div>   
+                    </div>
+                </div>
+                
+            </div>
+            <div class="order-summary">
+                <h2>Order Summary</h2>
+                <hr>
+                <div class="items-quantity">
+                    <p class="items-quantity-title">ITEMS (4):</p>
+                    <span class="cart-total-cost-price">₱450</span>
+                </div>
+                <div class="shipping">
+                    <p class="shipping-title">SHIPPING:</p>
+                    <span>Free</span>
+                </div>
+                <div class="cart-item-total">
+                    <p class="total">ORDER TOTAL:</p>
+                    <span class="total-cost">₱450</span>
+                </div>
+                <div class="payment-method">
+                    <h4>Payment Method:</h4>
+                    <div class="methods">
+                        <p>Gcash</p>
+                        <input type="checkbox">
+                    </div>
+                </div>
+                <div class="checkout-btn">
+                    <button class="place-order-btn">Place Order</button>
+                </div>
+                <hr>
+            </div>
+        </section>
+        <div id="side-bar">
+            <div class="user">
+                <a href="user.html" class="user-icon">
+                    <img src="images/user.png" alt="user" class="user-logo">
+                </a>
+                <p>@Ecosaver</p>
+            </div>
+        </div>
+    </main>
+    
+</body>
+</html>
